@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com'
-
+// import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 const ContactUs = () => {
     let formRef = useRef();
     function sendEmail(e) {
@@ -9,7 +10,6 @@ const ContactUs = () => {
         const email = e.target.email.value;
         const mobile = e.target.mobile.value;
         const message = e.target.message.value;
-
         console.log(name, mobile, email, message);
 
         emailjs.sendForm('service_btpj7en',
@@ -19,9 +19,12 @@ const ContactUs = () => {
         ).then(res => {
             console.log(res);
             formRef.current?.reset();
+            toast('hi')
+
         }).catch(error => {
             console.log(error);
         })
+        // toast('Your message');
 
     }
     return (
@@ -53,6 +56,7 @@ const ContactUs = () => {
                             <div className="form-control mt-6">
                                 <input className="btn btn-primary text-white" type="submit" value='SEND MESSAGE' />
                             </div>
+                            {/* <ToastContainer /> */}
                         </form>
                     </div>
                 </div>

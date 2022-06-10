@@ -3,6 +3,7 @@ import Navbar from '../src/Component/Shared/Navbar'
 import Home1 from './Component/Hero/Home1';
 import Contact from '../src/Component/Contact/Contact';
 import { Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -16,8 +17,7 @@ function App() {
 
       </Routes>
 
-
-
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

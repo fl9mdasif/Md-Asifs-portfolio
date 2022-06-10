@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../assest/img/hero.jpg'
+// import img from '../../assest/img/hero.jpg'
 import { Typewriter } from "react-simple-typewriter"
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
@@ -9,10 +9,11 @@ const Home1 = () => {
         <div className='bg-base-100'>
             <div class="hero min-h-screen ">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div className="justify-items-center h-full w-1/3">
-                        <img src={img} class="sm:w-full object-cover md:w-48 lg:w-full rounded-lg shadow-2xl " alt='' />
+                    <div className="justify-items-center h-100 ">
+                        <img src="https://cdn.dribbble.com/users/1162077/screenshots/5403918/focus-animation.gif" class="sm:w-full object-cover md:w-48 lg:w-full rounded-lg shadow-2xl " alt='' />
+                        {/* <img src={img} class="sm:w-full object-cover md:w-48 lg:w-full rounded-lg shadow-2xl " alt='' /> */}
                     </div>
-                    <div className="w-2/3">
+                    <div className="">
                         <p>Hi, This is</p>
                         <h1 class=" text-2xl md:text-4xl lg:text-5xl font-bold">MD ASIF AL AZAD!</h1>
 
