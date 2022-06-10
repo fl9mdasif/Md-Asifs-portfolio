@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -31,7 +34,7 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+
 }
 
 li {
@@ -139,7 +142,7 @@ input {
   margin-bottom: 20px;
 }
 
-/*----------Footer---------*/
+
 footer {
   margin: 20% 0 10% 0;
 }
@@ -148,7 +151,7 @@ footer p {
   margin-top: 30px;
 }
 
-/*----------Footer---------*/
+
 @media (max-width: 768px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
@@ -158,4 +161,4 @@ footer p {
   .right {
     width: 100%;
   }
-}
+} */
