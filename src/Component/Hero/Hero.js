@@ -1,10 +1,10 @@
 import React from 'react';
 // import img from '../../assest/img/hero.jpg'
 import { Typewriter } from "react-simple-typewriter"
-import Services from '../Services/Services';
-import Contact from '../Contact/Contact';
+// import Services from '../Services/Services';
+// import Contact from '../Contact/Contact';
 
-const Home1 = () => {
+const Hero = () => {
     return (
         <div className='bg-base-100'>
             <div class="hero min-h-screen ">
@@ -35,10 +35,9 @@ const Home1 = () => {
                     </div>
                 </div>
             </div>
-            <Services></Services>
-            <Contact></Contact>
+
         </div>
     );
 };
 
-export default Home1;
+export default Hero;
