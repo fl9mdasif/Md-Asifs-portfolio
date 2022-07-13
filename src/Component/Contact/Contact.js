@@ -44,7 +44,7 @@ const ContactUs = () => {
                             </div>
                             <div className="form-control">
 
-                                <input type="email" placeholder="email" name='email' className="input input-bordered" required />
+                                <input type="email" placeholder="Email" name='email' className="input input-bordered" required />
                             </div>
                             <div className="form-control">
 
