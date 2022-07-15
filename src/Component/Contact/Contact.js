@@ -2,7 +2,11 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com'
 // import { toast } from 'react-toastify';
 import { toast } from 'react-toastify';
+import 'boxicons';
+import './Contact.styles.css'
+
 const ContactUs = () => {
+
     let formRef = useRef();
     function sendEmail(e) {
         e.preventDefault();
@@ -28,30 +32,35 @@ const ContactUs = () => {
 
     }
     return (
-        <div className="my-7 hero bg-blend-lighten lg:w-3/4 mx-auto mb-10">
+        <div className="my-7 hero bg-blend-lighten lg:w-4/5 mx-auto mb-10">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <div className="text-center lg:text-left lg:pl-20">
-                    <h1 className="text-5xl text-accent font-bold">Contact Me</h1>
-                    <p className=" text-gray-400 py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+
+                <div className="div text-center lg:text-left lg:pl-20">
+                    <h1 className="text-accent text-center text-4xl font-bold mb-7 ">Contact Me</h1>
+
+                    <p className="flex gap-1 ml-2 text-white "><box-icon color='white' name='mail-send'></box-icon>asifalazadami2021@gmail.com</p>
+                    <p className="flex gap-1 ml-2 text-white "><box-icon color='white' type='logo' name='whatsapp'></box-icon>+8801707525010</p>
+                    <p className="flex gap-1 ml-2 text-white "><box-icon color='white' type='logo' name='facebook'></box-icon>
+                        <a target='blank' href="http://facebook.com/devmdasifofficial">MD ASIF AL AZAD</a>
+                    </p>
+                    <p className="flex gap-1 ml-2 text-white "><box-icon color='white' type='logo' name='linkedin'></box-icon>
+                        <a target='blank' href="https://www.linkedin.com/in/fl9mdasif/">MD ASIF AL AZAD</a>
+                    </p>
                 </div>
 
                 <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                     <div className="card-body">
                         <form onSubmit={sendEmail} ref={formRef}>
                             <div className="form-control">
-
                                 <input type="text" placeholder="Your Name" name='name' className="input input-bordered" required />
                             </div>
                             <div className="form-control">
-
                                 <input type="email" placeholder="Email" name='email' className="input input-bordered" required />
                             </div>
                             <div className="form-control">
-
                                 <input type="number" placeholder="Your Mobile Numebr" name='mobile' className="input input-bordered" required />
                             </div>
                             <div className="form-control">
-
                                 <textarea className="textarea textarea-info" placeholder="Your Message" name='message'></textarea>
                             </div>
                             <div className="form-control mt-6">
@@ -61,8 +70,9 @@ const ContactUs = () => {
                         </form>
                     </div>
                 </div>
+
             </div>
-        </div>
+        </div >
     );
 };
 

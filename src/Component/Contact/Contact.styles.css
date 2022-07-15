@@ -1,0 +1,24 @@
+.div p {
+    padding-bottom: 10px;
+}
+
+/* unvisited link */
+
+p a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: #e65c00;
+}
+
+/* selected link */
+/* a:active {
+    color: blue;
+} */
