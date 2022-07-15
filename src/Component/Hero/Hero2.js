@@ -24,7 +24,7 @@ const Hero2 = () => {
                         alt="Woman workcationing on the beach"
                     />
 
-                    <p className=" text-lg mt-6 sm:mt-8 text-accent text-md">Assalamu Alaikum, This is</p>
+                    <p className=" text-lg mt-6 sm:mt-8 text-accent text-md">Assalamu Alaikum,<span class="text-neutral"> This is</span></p>
                     <h1 class=" text-2xl font-bold   sm:text-4xl lg:text-3xl xl:text-4xl">
 
                         <span class="text-neutral">

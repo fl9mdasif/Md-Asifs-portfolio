@@ -7,12 +7,12 @@ const Services = () => {
 
         <div id="Services" className="">
 
-            <h3 className="text-accent text-center text-4xl font-bold my-7 ">My service</h3>
+            <h1 className="text-accent text-center text-4xl font-bold my-7 ">My service</h1>
 
-            <div className=" grid grid-cols-1 md:grid-cols-2 gap-4  lg:grid-cols-3">
+            <div className="px-3  grid grid-cols-1 md:grid-cols-2 gap-3  lg:grid-cols-3  ">
                 <div class="card w-90 bg-secondary shadow-xl">
-                    <div class="card-body">
-                        <box-icon color="white" name='code-curly'></box-icon>
+                    <div class="card-body ">
+                        <span className=""> <box-icon color="white" name='code-curly'></box-icon></span>
                         {/* <FontAwesomeIcon icon={faCoffee} /> */}
                         <h2 class="items-center text-accent card-title">Front-End</h2>
                         <p className="text-neutral">I design modern looking UI using HTML, CSS, JavaScript, React, DaisyUi, Tailwind, Bootstrap</p>
