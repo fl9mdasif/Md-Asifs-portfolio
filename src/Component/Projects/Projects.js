@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <div className=" bg-primary pb-5 ">
             <h1 className="text-accent text-center text-4xl font-bold my-7 ">My Projects</h1>
-            <div className="projects text-center text-neutral pb-7 ">
+            <div className="flex justify-center flex-wrap projects text-center text-neutral pb-7 ">
 
                 <Link to='/projects' >All</Link>
                 <Link to='/projects/mern' >Mern</Link>
