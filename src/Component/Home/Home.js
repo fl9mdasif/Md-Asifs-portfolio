@@ -4,6 +4,7 @@ import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
+import { Outlet } from 'react-router-dom';
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
             <Services></Services>
             <Skills />
             <Projects />
+            <Outlet />
             <Contact></Contact>
 
         </div>

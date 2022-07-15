@@ -11,9 +11,8 @@ const Projects = () => {
                 <Link to='/projects/mern' >Mern</Link>
                 <Link to='/projects/javascript' >JavaScript</Link>
                 <Link to='/projects/others' >Others</Link>
+                <Outlet />
             </div>
-            <Outlet />
-
         </div>
     );
 };
