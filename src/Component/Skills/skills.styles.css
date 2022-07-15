@@ -1,0 +1,8 @@
+.imgDiv img {
+    height: 45px
+}
+
+.imgDiv {
+    height: 45px;
+    content: cover
+}
