@@ -11,6 +11,7 @@ import MernProjects from './Component/Projects/MernProjects';
 import ReactProjects from './Component/Projects/ReactProjects';
 import JavascriptProjects from './Component/Projects/JavascriptProjects';
 import OthersP from './Component/Projects/OthersP';
+import { Portfolio } from './Component/Projects/Portfolio';
 
 function App() {
 
@@ -19,8 +20,10 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/home' element={<Home />}></Route>
         <Route path='/services' element={<Services />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
+        <Route path='/portfolio' element={<Portfolio />}></Route>
         <Route path='*' element={<NotFound />}></Route>
 
         {/* Nested routes */}

@@ -13,8 +13,9 @@ const Navbar = () => {
     const menuItems =
         <>
             <li><Link to='/' href="#2">Home</Link></li>
-            <li><Link to='/projects' >Portfolio</Link></li>
-            <li><Link to='/services' href="#2">Services</Link></li>
+            {/* <li><Link to='/projects' >Portfolio</Link></li> */}
+            <li><Link to='/portfolio' >Portfolio</Link></li>
+            {/* <li><Link to='/home#services' href="#Services">Services</Link></li> */}
             <li><Link to='/review' href="#2">Reviews</Link></li>
             <li><a target='blank' href={CV}><button className='border p-2 rounded-xl' >Download CV</button></a></li>
 

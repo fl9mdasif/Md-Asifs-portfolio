@@ -10,7 +10,7 @@ p a:link {
 
 /* visited link */
 a:visited {
-    color: rgb(47, 215, 224);
+    color: rgb(224, 47, 47);
 }
 
 /* mouse over link */

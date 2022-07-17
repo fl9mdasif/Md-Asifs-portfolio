@@ -3,8 +3,9 @@ import Hero2 from '../Hero/Hero2';
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
 import Skills from '../Skills/Skills';
-import Projects from '../Projects/Projects';
+// import Projects from '../Projects/Projects';
 import { Outlet } from 'react-router-dom';
+import { Portfolio } from '../Projects/Portfolio';
 
 
 
@@ -15,9 +16,11 @@ const Home = () => {
             <Hero2></Hero2>
             <Services></Services>
             <Skills />
-            <Projects />
+            {/* <Projects /> */}
             <Outlet />
+            <Portfolio />
             <Contact></Contact>
+
 
         </div>
     );

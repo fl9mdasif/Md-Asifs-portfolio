@@ -12,3 +12,116 @@
     color: #e65c00;
 
 }
+
+.cata button {
+    margin-left: 10px;
+    /* padding-right: 5px */
+    border-radius: 30px;
+    border: 1px solid rgb(168, 149, 126);
+    padding: 5px 18px;
+
+}
+
+.link a:hover {
+    background-color: rgb(218, 218, 218);
+    color: #e65c00;
+
+}
+
+.link a {
+    color: #331cff;
+    background-color: white;
+    font-weight: bold;
+    /* padding-right: 5px */
+    border-radius: 30px;
+    border: 1px solid rgb(11, 11, 11);
+    padding: 3px 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.738);
+
+}
+
+
+
+/*---------portfolio-------------*/
+
+article {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+article img {
+    width: 330px;
+    height: 200px;
+}
+
+article .box {
+    position: relative;
+    transition: 0.5s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+    text-transform: capitalize;
+
+
+}
+
+.overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(73, 73, 73, 0.91);
+    opacity: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+article .box:hover .overlay::after,
+article .box:hover .overlay {
+    opacity: 1;
+}
+
+.catButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.catButton button {
+    text-transform: capitalize;
+    margin-right: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: #e65c00;
+
+}
+
+button {
+    text-transform: capitalize;
+    margin-left: 10px;
+    /* padding-right: 5px */
+    border-radius: 30px;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 5px 18px;
+
+}
+
+/*---------portfolio-------------*/
