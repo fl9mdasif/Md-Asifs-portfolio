@@ -113,7 +113,7 @@ export const portfolio = [
         id: 12,
         cover: "https://i.ibb.co/89Vf4dD/MY-PORTFOLIO.png",
         name: "Portfolio with html css",
-        client: " https://fl9mdasif.github.io/portfolio-web2/",
+        client: "https://github.com/fl9mdasif/portfolio-web2",
         server: "",
         liveSite: "https://fl9mdasif.github.io/portfolio-web2/",
         category: "others"
@@ -122,8 +122,8 @@ export const portfolio = [
     {
         id: 13,
         cover: "https://i.ibb.co/VmwkPg5/JAVASCRIPT-CALCULATOR-BY-MD-ASIF.png",
-        name: "Calculator Javascript",
-        client: " https://fl9mdasif.github.io/portfolio-web2/",
+        name: "Calculator by Javascript",
+        client: "https://github.com/fl9mdasif/JavaScript-Calulator-By-MDASIF",
         server: "",
         liveSite: "https://fl9mdasif.github.io/JavaScript-Calulator-By-MDASIF/",
         category: "javascript"
@@ -197,6 +197,16 @@ export const portfolio = [
         server: "",
         liveSite: "https://fl9mdasif.github.io/pin_generator/",
         category: "javascript"
+
+    },
+    {
+        id: 21,
+        cover: "https://i.ibb.co/BKsDw63/tintin.png",
+        name: "TinTin Food Order",
+        client: "",
+        server: "",
+        liveSite: "https://treatfromtintin.com/",
+        category: "wordpress"
 
     },
 ]

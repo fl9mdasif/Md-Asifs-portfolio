@@ -33,9 +33,9 @@ export const Portfolio = () => {
                             </button>
                         ))}
                     </div>
-                    <div className='content justify-center flex gap-4 rounded shadow-lg flex-wrap'>
+                    <div className='content  justify-center flex gap-4 rounded shadow-lg flex-wrap'>
                         {list.map((project) => (
-                            <div className='box relative' data-aos='fade-up'>
+                            <div className=' px-2 box relative' data-aos='fade-up'>
                                 <div className='img'>
                                     <img style={{ objectFit: 'fill' }} src={project.cover} alt='' />
                                 </div>
@@ -46,9 +46,11 @@ export const Portfolio = () => {
                                     </div>
                                     <div className=' link flex capitalize gap-4 rounded absolute bottom-3'>
 
-                                        <a target='blank' href={project.client} > Client</a >
-                                        <a target='blank' href={project.liveSite} > Live Site</a >
-                                        <a target='blank' href={project?.server} > Server</a >
+                                        <a target='_blank' href={project.client} > Client</a >
+                                        <a target='_blank' href={project.liveSite} > Live Site</a >
+                                        {
+                                            project.server && <a target='_blank' href={project?.server} > Server</a >
+                                        }
                                     </div>
                                 </div>
                             </div>
