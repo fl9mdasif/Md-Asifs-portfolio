@@ -35,6 +35,7 @@ const Hero2 = () => {
                             <Typed
                                 strings={[
                                     'Web Developer',
+                                    'Mern Stack Developer',
                                     'React.js Developer',
                                     'JavaScript ES6 Developer'
                                 ]}

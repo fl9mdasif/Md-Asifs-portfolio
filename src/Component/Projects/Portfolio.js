@@ -47,8 +47,8 @@ export const Portfolio = () => {
                                     <div className=' link flex capitalize gap-4 rounded absolute bottom-3'>
 
                                         <a target='blank' href={project.client} > Client</a >
-                                        <a target='blank' href={project.server} > Live Site</a >
-                                        <a target='blank' href={project.liveSite} > Server</a >
+                                        <a target='blank' href={project.liveSite} > Live Site</a >
+                                        <a target='blank' href={project?.server} > Server</a >
                                     </div>
                                 </div>
                             </div>

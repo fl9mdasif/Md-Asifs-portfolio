@@ -14,6 +14,9 @@ import wordpress from '../../assest/Icons/wordpress_PNG74.png'
 import reactNative from '../../assest/Icons/react-native-.png'
 import typescript from '../../assest/Icons/Typescript_logo_2020.svg.png'
 import redux from '../../assest/Icons/redux.svg'
+import firebase from '../../assest/Icons/firebase-1.svg'
+import git from '../../assest/Icons/Git-Icon-1788C.png'
+import github from '../../assest/Icons/github-1.png'
 import './skills.styles.css'
 
 const Skills = () => {
@@ -41,6 +44,9 @@ const Skills = () => {
                     <div className='tooltip imgDiv'><img src={express} alt='React' /><span className="tooltiptext">EXPRESS.JS</span></div>
                     <div className='tooltip imgDiv'><img src={mongoDB} alt='React' /><span className="tooltiptext">MONGODB</span></div>
                     <div className='tooltip imgDiv'><img src={mern} alt='React' /><span className="tooltiptext">MERN_STACK</span></div>
+                    <div className='tooltip imgDiv'><img src={firebase} alt='React' /><span className="tooltiptext">FIREBASE</span></div>
+                    <div className='tooltip imgDiv'><img src={git} alt='React' /><span className="tooltiptext">GIT</span></div>
+                    <div className='tooltip imgDiv'><img src={github} alt='React' /><span className="tooltiptext">GITHUB</span></div>
                     <div className='tooltip imgDiv'><img src={wordpress} alt='React' /><span className="tooltiptext">WORDPRESS</span></div>
                 </div>
                 <div><h2 style={{
