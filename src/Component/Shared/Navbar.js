@@ -19,16 +19,6 @@ const Navbar = () => {
             <li><Link to='/review' href="#2">Reviews</Link></li>
             <li><a target='blank' href={CV}><button className='border p-2 rounded-xl' >Download CV</button></a></li>
 
-            {/* {
-                user && <li><Link to='/dashboard' className=" text-black text-decoration-none"> Dashboard</Link></li>
-            }
-            {
-                user ?
-                    <button onClick={handleSignOut} className="btn btn-primary text-white border-none shadow-md bg-gradient-to-r  from-secondary to-primary"> Sign Out</button>
-                    :
-                    <li><Link to='login' href="#2">Login</Link></li>
-            } */}
-
         </>
 
     return (

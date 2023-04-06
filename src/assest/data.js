@@ -1,27 +1,27 @@
 export const portfolio = [
     {
         id: 1,
-        cover: "https://i.ibb.co/mTf119m/1-Cycle-Parts-BD.png",
-        name: "Cycle Parts Manufacturer",
-        client: "https://github.com/fl9mdasif/cycle-parts-manufacturer-Client_site",
-        server: "https://github.com/fl9mdasif/warehouse-management-server-side",
-        liveSite: "https://cycle-parts-hut.web.app/",
+        cover: "https://i.ibb.co/WcXx04k/Home-2023-04-07-015511.png",
+        name: "Laf'z Manufacturer",
+        client: "https://github.com/fl9mdasif/lafz-manufacturer-client",
+        server: "https://github.com/fl9mdasif/lafz-manufacturer-server",
+        liveSite: "https://lafz-manufacturer.web.app",
         category: "mernStack"
 
     },
     {
         id: 2,
-        cover: "https://i.ibb.co/pR23GfS/Mi-store-BD.png",
-        name: "Warehouse Management",
-        client: "https://github.com/fl9mdasif/Mobile-warehouse-management",
-        server: "https://github.com/fl9mdasif/warehouse-management-server-side",
-        liveSite: "https://mobile-warehouse-fd23b.web.app/",
+        cover: "https://i.ibb.co/QkdqBJf/product-2023-04-07-015721.png",
+        name: "Famous FootWare",
+        client: "https://github.com/fl9mdasif/famous-footwear-client",
+        server: "https://github.com/fl9mdasif/famous-footwear-server",
+        liveSite: "https://famous-footwear-warehouse.web.app",
         category: "mernStack",
 
     },
     {
         id: 3,
-        cover: "https://i.ibb.co/J2zBGZQ/To-Do-app.png",
+        cover: "https://i.ibb.co/CQjC30v/todo-app-2023-04-07-020741.png",
         name: "To-Do App",
         client: "https://github.com/fl9mdasif/To-do-app-CLIENT",
         server: "https://github.com/fl9mdasif/To-do-app-SERVER",

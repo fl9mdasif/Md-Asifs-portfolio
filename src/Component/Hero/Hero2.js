@@ -4,7 +4,6 @@ import 'boxicons';
 import heroImg from '../../assest/img/hero.jpg'
 import Typed from 'react-typed';
 import CV from '../../assest/CV/MD ASIF AL AZAD_Web_delveloper_RESUME.pdf'
-// import PraticleBg from '../../assest/Particles/PraticleBg';
 
 
 const Hero2 = () => {
